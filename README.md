@@ -1,30 +1,63 @@
-# Advanced Python: Income Visualization Across OECD Countries
+OECD Income & Education Analysis
+📌 Problem Statement
+Global income inequality remains a persistent issue influenced by a range of factors, including educational attainment, age, gender, and geography. Despite the availability of large-scale public datasets like those from the OECD, many countries fail to leverage this information to guide policy. This project seeks to answer:
 
-This project explores income disparities across 44 OECD countries and regions using Python. By applying data wrangling and visualization techniques, we examine how income is influenced by education, age, and gender across nations.
+How does education level impact income?
 
-## 🎯 Objectives
+Are there systematic gender disparities in earnings?
 
-Using a real-world dataset from the OECD, we address the following questions:
+Do income levels differ by age across countries?
 
-- Are there income disparities between countries?
-- How does educational attainment affect average salaries?
-- Are there gender differences in starting salaries across education levels?
-- Does income increase with age, and is this trend different by gender?
-- How do age, gender, and education distribute across income brackets?
-- Which countries or regions have more income fairness?
+Which regions demonstrate greater fairness in income distribution?
 
-## 📊 Techniques Used
+🔍 Analytical Approach
+Using OECD data covering 44 countries and regions, we applied the following steps:
 
-- Python (Pandas, NumPy, Seaborn, Matplotlib)
-- Grouped aggregations and categorical comparisons
-- Distribution plots, violin plots, stacked bar charts, facet grids
-- Cross-country and cross-demographic visualization
-- HTML-based final report
+Data Preparation:
+Cleaned and reshaped raw data to extract consistent indicators across demographics (age, gender, education) and income metrics.
 
-## 📁 Files
+Exploratory Data Analysis (EDA):
+Used visual tools such as:
 
-- `Earnings_Data_OECD.csv` — Source dataset  
-- `Income_Analysis_OECD_Notebook.ipynb` — Python code and analysis  
+Bar charts for average income by country
+
+Stacked bar charts for gender-based income comparison
+
+Scatter plots and line charts for trends across age groups
+
+Comparative Analysis:
+Grouped countries by region (e.g., Western Europe, Latin America) to examine fairness and disparities.
+
+Synthesis of Findings:
+Highlighted key correlations and patterns using statistical summaries and visual storytelling.
+
+💡 Recommendations
+Based on the findings, we propose the following:
+
+Expand access to higher education:
+As income increases significantly with educational attainment, especially tertiary education, public investment in accessible higher education is critical.
+
+Address structural gender disparities:
+Implement stronger equal pay legislation and transparent salary reporting to reduce persistent gender gaps.
+
+Tailor career development support by age group:
+Career support programs should recognize the income plateau post age 45, and promote continuous upskilling.
+
+Target region-specific reforms:
+Countries with higher inequality (e.g., Latin America, Eastern Europe) should adopt policy models from fairer systems (e.g., Nordic countries).
+
+✅ Outcomes
+This analysis reveals that:
+
+Education is the strongest predictor of higher income, across all countries.
+
+Gender pay gaps persist globally, even among the most educated populations.
+
+Income typically peaks between ages 45–54, with country-specific variations.
+
+Northern and Western European countries show more equitable income distributions.
+
+By transforming raw OECD data into actionable insights, this project supports data-driven policymaking and encourages the public to better understand global socioeconomic dynamics.
 - `OECD_Income_Analysis_Report.html` — Rendered final report  
 
 ## 🧠 Key Findings
