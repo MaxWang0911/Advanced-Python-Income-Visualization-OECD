@@ -1,73 +1,57 @@
-OECD Income & Education Analysis
-📌 Problem Statement
-Global income inequality remains a persistent issue influenced by a range of factors, including educational attainment, age, gender, and geography. Despite the availability of large-scale public datasets like those from the OECD, many countries fail to leverage this information to guide policy. This project seeks to answer:
+# 📊 OECD Income & Education Analysis
 
-How does education level impact income?
+## 🧩 Problem Statement
 
-Are there systematic gender disparities in earnings?
+Global income inequality remains a persistent issue influenced by a range of factors, including **educational attainment, age, gender, and geography**. Despite the availability of large-scale public datasets like those from the OECD, many countries fail to leverage this information to guide policy. This project seeks to answer:
 
-Do income levels differ by age across countries?
+- How does education level impact income?
+- Are there systematic gender disparities in earnings?
+- Do income levels differ by age across countries?
+- Which regions demonstrate greater fairness in income distribution?
 
-Which regions demonstrate greater fairness in income distribution?
+## 🔍 Analytical Approach
 
-🔍 Analytical Approach
-Using OECD data covering 44 countries and regions, we applied the following steps:
+Using OECD data covering **44 countries and regions**, we applied the following steps:
 
-Data Preparation:
-Cleaned and reshaped raw data to extract consistent indicators across demographics (age, gender, education) and income metrics.
+### 1. Data Preparation
+- Cleaned and harmonised raw datasets.
+- Transformed structure for country-age-gender-education-income alignment.
 
-Exploratory Data Analysis (EDA):
-Used visual tools such as:
+### 2. Exploratory Data Analysis (EDA)
+- **Bar Charts**: Income differences across countries.
+- **Stacked Charts**: Gender-based comparisons within education levels.
+- **Line & Scatter Plots**: Age-income trajectories and trends.
 
-Bar charts for average income by country
+### 3. Comparative Regional Analysis
+- Grouped countries by region (e.g., Western Europe, Latin America).
+- Evaluated relative fairness in income and representation.
 
-Stacked bar charts for gender-based income comparison
+### 4. Insight Synthesis
+- Summarised patterns using visualisation and statistics.
+- Linked demographic trends with structural inequalities.
 
-Scatter plots and line charts for trends across age groups
+## 💡 Recommendations
 
-Comparative Analysis:
-Grouped countries by region (e.g., Western Europe, Latin America) to examine fairness and disparities.
+Based on the findings, we recommend:
 
-Synthesis of Findings:
-Highlighted key correlations and patterns using statistical summaries and visual storytelling.
+- **Expand access to higher education**  
+  ➤ Income is strongly linked to tertiary education (ISCED 5–8).
 
-💡 Recommendations
-Based on the findings, we propose the following:
+- **Tackle structural gender disparities**  
+  ➤ Strengthen legislation and promote pay transparency.
 
-Expand access to higher education:
-As income increases significantly with educational attainment, especially tertiary education, public investment in accessible higher education is critical.
+- **Support career development across ages**  
+  ➤ Implement lifelong learning to counter age-based income stagnation.
 
-Address structural gender disparities:
-Implement stronger equal pay legislation and transparent salary reporting to reduce persistent gender gaps.
+- **Adopt regional best practices**  
+  ➤ Countries with high inequality can learn from Nordic policy models.
 
-Tailor career development support by age group:
-Career support programs should recognize the income plateau post age 45, and promote continuous upskilling.
+## ✅ Outcomes
 
-Target region-specific reforms:
-Countries with higher inequality (e.g., Latin America, Eastern Europe) should adopt policy models from fairer systems (e.g., Nordic countries).
+- 📈 **Tertiary education significantly increases earnings** across all countries.
+- 👨‍🦰👩 **Men consistently earn more than women**, even with equivalent education.
+- ⏳ **Income peaks at 45–54 age group**, then plateaus or declines.
+- 🌍 **Northern & Western Europe show fairer distributions**, while other regions show greater disparity.
 
-✅ Outcomes
-This analysis reveals that:
+---
 
-Education is the strongest predictor of higher income, across all countries.
-
-Gender pay gaps persist globally, even among the most educated populations.
-
-Income typically peaks between ages 45–54, with country-specific variations.
-
-Northern and Western European countries show more equitable income distributions.
-
-By transforming raw OECD data into actionable insights, this project supports data-driven policymaking and encourages the public to better understand global socioeconomic dynamics.
-- `OECD_Income_Analysis_Report.html` — Rendered final report  
-
-## 🧠 Key Findings
-
-- Educational attainment has a strong positive impact on income across all age and gender groups
-- Gender pay gaps persist across all education levels and grow with age
-- Regional differences show varied levels of income fairness
-
-## 👨‍💻 Authors
-
-Group 5 – Programming for Data Analysis (37373)  
-Autumn 2024, University of Technology Sydney (UTS)  
-Main Contributor: Zheng Wang (14403000)
